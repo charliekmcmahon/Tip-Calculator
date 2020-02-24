@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-  height: 525px;
+  height: 600px;
   width: 360px;
   margin: 100px auto;
   background: #f7f7f7;
@@ -46,7 +46,7 @@ input {
 #billamt {
   font-size: 14px;
   /*color: #2980b9;*/
-  color: #red;
+  color: black;
   background-color: #f7f7f7;
   width: 60%;
   padding: 5px 5px 8px 8px;
@@ -62,7 +62,7 @@ input {
   width: 60%;
   padding: 5px 5px 8px 8px;
   margin-left: 20px;
-  color: #red;
+  color: black;
   background-color: #f7f7f7;
   font-size: 14px;
 }
@@ -120,6 +120,31 @@ button:active {
 }
 
 #totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+#mealCost {
+
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+#mealCost:before {
+  content: "Total Meal Cost";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#mealCost sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#mealCost small {
   font-size: 20px;
   font-weight: bold;
   display: block;
